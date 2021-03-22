@@ -25,7 +25,7 @@ function sayHi(args){
  }
 
  let boundedFunc = sayHi.bind(person,'Hola')
- let iBoundedFunc = sayHi.iBind(person,'Gola')
+ let iBoundedFunc = sayHi.iBind(person,['Gola'])
 
 
 boundedFunc();
